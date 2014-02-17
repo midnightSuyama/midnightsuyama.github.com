@@ -4,7 +4,7 @@
   <title><![CDATA[Category: work | midnightSuyama.org]]></title>
   <link href="http://midnightsuyama.org/blog/categories/work/atom.xml" rel="self"/>
   <link href="http://midnightsuyama.org/"/>
-  <updated>2014-02-17T02:59:19+09:00</updated>
+  <updated>2014-02-18T01:14:42+09:00</updated>
   <id>http://midnightsuyama.org/</id>
   <author>
     <name><![CDATA[midnightSuyama]]></name>
@@ -12,6 +12,53 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[octopress_deploy_tweet]]></title>
+    <link href="http://midnightsuyama.org/blog/articles/octopress-deploy-tweet/"/>
+    <updated>2014-02-18T01:08:21+09:00</updated>
+    <id>http://midnightsuyama.org/blog/articles/octopress-deploy-tweet</id>
+    <content type="html"><![CDATA[<p>Octopress &ndash; Deploy task with tweet</p>
+
+<!-- more -->
+
+
+<h2>Install</h2>
+
+<pre><code>$ cd octopress
+$ git clone git://github.com/midnightSuyama/octopress_deploy_tweet.git
+</code></pre>
+
+<h3>Add to Gemfile</h3>
+
+<p><code>
+gem 'nokogiri'
+gem 'twitter'
+</code></p>
+
+<h3>Add to Rakefile</h3>
+
+<p><code>
+require File.expand_path('../octopress_deploy_tweet/task', __FILE__)
+</code></p>
+
+<h3>Setup Twitter in <code>task.rb</code></h3>
+
+<p><code>
+Twitter.configure do |config|
+  config.consumer_key       = YOUR_CONSUMER_KEY
+  config.consumer_secret    = YOUR_CONSUMER_SECRET
+  config.oauth_token        = YOUR_OAUTH_TOKEN
+  config.oauth_token_secret = YOUR_OAUTH_TOKEN_SECRET
+end
+</code></p>
+
+<h2>Usage</h2>
+
+<pre><code>$ rake deploy_tweet
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[respectMattt]]></title>
