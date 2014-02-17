@@ -4,7 +4,7 @@
   <title><![CDATA[Category: work | midnightSuyama.org]]></title>
   <link href="http://midnightsuyama.org/blog/categories/work/atom.xml" rel="self"/>
   <link href="http://midnightsuyama.org/"/>
-  <updated>2014-02-18T01:14:42+09:00</updated>
+  <updated>2014-02-18T01:45:17+09:00</updated>
   <id>http://midnightsuyama.org/</id>
   <author>
     <name><![CDATA[midnightSuyama]]></name>
@@ -45,7 +45,7 @@ require File.expand_path('../octopress_deploy_tweet/task', __FILE__)
 <h3>Setup Twitter in <code>task.rb</code></h3>
 
 <p><code>
-Twitter.configure do |config|
+twitter = Twitter::REST::Client.new do |config|
   config.consumer_key       = YOUR_CONSUMER_KEY
   config.consumer_secret    = YOUR_CONSUMER_SECRET
   config.oauth_token        = YOUR_OAUTH_TOKEN
