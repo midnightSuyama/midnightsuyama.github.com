@@ -4,7 +4,7 @@
   <title><![CDATA[midnightSuyama.org]]></title>
   <link href="http://midnightsuyama.org/atom.xml" rel="self"/>
   <link href="http://midnightsuyama.org/"/>
-  <updated>2014-02-18T01:50:32+09:00</updated>
+  <updated>2014-02-19T00:58:24+09:00</updated>
   <id>http://midnightsuyama.org/</id>
   <author>
     <name><![CDATA[midnightSuyama]]></name>
@@ -12,6 +12,91 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress]]></title>
+    <link href="http://midnightsuyama.org/blog/articles/octopress/"/>
+    <updated>2014-02-19T00:32:13+09:00</updated>
+    <id>http://midnightsuyama.org/blog/articles/octopress</id>
+    <content type="html"><![CDATA[<p>A blogging framework for hackers. を掲げるブログシステム。Jekyll のラッパー。So! アイツはマダコだ Yo!</p>
+
+<!-- more -->
+
+
+<p><a href="http://octopress.org">http://octopress.org</a></p>
+
+<h2>Install</h2>
+
+<pre><code>$ git clone git://github.com/imathis/octopress.git octopress
+$ cd octopress
+$ bundle install
+$ rake install
+</code></pre>
+
+<h2>Configuration</h2>
+
+<p><code>_config.yml</code> を編集。<br/>
+各項目は <a href="http://octopress.org/docs/configuring/">Configuring Octopress</a> を参照。</p>
+
+<h2>Usage</h2>
+
+<h3>記事作成</h3>
+
+<pre><code>$ rake new_post['title']
+</code></pre>
+
+<p><code>source/_posts/</code> に <code>YYYY-MM-DD-title.markdown</code> が作成されるので、let&rsquo;s まーくだうん。</p>
+
+<h3>ページ作成</h3>
+
+<pre><code>$ rake new_page['title']
+</code></pre>
+
+<p><code>source/</code> に <code>title/index.markdown</code> が作成されるので、enjoy まーくだうん。</p>
+
+<h3>ウェブサイト生成</h3>
+
+<pre><code>$ rake generate
+</code></pre>
+
+<p>わーい。</p>
+
+<h3>プレビュー</h3>
+
+<pre><code>$ rake preview
+</code></pre>
+
+<p>で、WEBrick が起動するので <code>http://localhost:4000</code> から確認。<br/>
+Thin を使いたければ <code>Gemfile</code> へ追記を。</p>
+
+<h2>GitHub Pages</h2>
+
+<h3>設定</h3>
+
+<pre><code>$ rake setup_github_pages
+</code></pre>
+
+<p>で、リポジトリ URL を設定。<code>git@github.com:username/username.github.io.git</code> みたいなものを。</p>
+
+<h3>デプロイ</h3>
+
+<pre><code>$ rake generate
+$ rake deploy
+</code></pre>
+
+<p>or</p>
+
+<pre><code>$ rake gen_deploy
+</code></pre>
+
+<p>でおしまい。</p>
+
+<h3>カスタムドメイン</h3>
+
+<p>ドメインを記載した <code>source/CNAME</code> を作って、DNS の A レコードを編集。<br/>
+A レコードの値は <a href="https://help.github.com/articles/setting-up-a-custom-domain-with-pages">Setting up a custom domain with Pages</a> を参照。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[octopress_deploy_tweet]]></title>
@@ -22,6 +107,8 @@
 
 <!-- more -->
 
+
+<p><a href="https://github.com/midnightSuyama/octopress_deploy_tweet">https://github.com/midnightSuyama/octopress_deploy_tweet</a></p>
 
 <h2>Install</h2>
 
@@ -75,6 +162,8 @@ $ git clone git://github.com/midnightSuyama/octopress_deploy_tweet.git
 
 <!-- more -->
 
+
+<p><a href="https://github.com/midnightSuyama/respectMattt">https://github.com/midnightSuyama/respectMattt</a></p>
 
 <h2>Install</h2>
 

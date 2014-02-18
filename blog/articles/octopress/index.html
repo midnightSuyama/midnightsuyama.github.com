@@ -3,14 +3,14 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>octopress_deploy_tweet - midnightSuyama.org</title>
+  <title>Octopress - midnightSuyama.org</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <meta name="description" content="octopress_deploy_tweet work Feb 18th, 2014 Octopress &ndash; Deploy task with tweet https://github.com/midnightSuyama/octopress_deploy_tweet Install &hellip;">
+  <meta name="description" content="Octopress dev Feb 19th, 2014 A blogging framework for hackers. を掲げるブログシステム。Jekyll のラッパー。So! アイツはマダコだ Yo! http://octopress.org Install $ git clone &hellip;">
   <meta name="author" content="midnightSuyama">
 
   
-  <link rel="canonical" href="http://midnightsuyama.org/blog/articles/octopress-deploy-tweet">
+  <link rel="canonical" href="http://midnightsuyama.org/blog/articles/octopress">
   <link href="/favicon.ico" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="midnightSuyama.org" type="application/atom+xml">
@@ -37,17 +37,17 @@ $(document).ready( function () {
     
 
 
-<article role="main" class="article theme-red">
+<article role="main" class="article theme-green">
   <header class="article-header">
   
-    <h1 class="article-title lettering">octopress_deploy_tweet</h1>
+    <h1 class="article-title lettering">Octopress</h1>
   
   <div>
     <span><i class="icon-tag"></i> 
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/work/'>work</a>
+    <a class='category' href='/blog/categories/dev/'>dev</a>
   
 </span>
 
@@ -65,7 +65,7 @@ $(document).ready( function () {
 
 
 
-<time datetime="2014-02-18T01:08:21+09:00" pubdate data-updated="true">Feb 18<span>th</span>, 2014</time></span>
+<time datetime="2014-02-19T00:32:13+09:00" pubdate data-updated="true">Feb 19<span>th</span>, 2014</time></span>
   </div>
 </header>
 
@@ -79,53 +79,83 @@ $(document).ready( function () {
 </div>
 
   
-  <div><p>Octopress &ndash; Deploy task with tweet</p>
+  <div><p>A blogging framework for hackers. を掲げるブログシステム。Jekyll のラッパー。So! アイツはマダコだ Yo!</p>
 
 <!-- more -->
 
 
-<p><a href="https://github.com/midnightSuyama/octopress_deploy_tweet">https://github.com/midnightSuyama/octopress_deploy_tweet</a></p>
+<p><a href="http://octopress.org">http://octopress.org</a></p>
 
 <h2>Install</h2>
 
-<pre><code>$ cd octopress
-$ git clone git://github.com/midnightSuyama/octopress_deploy_tweet.git
+<pre><code>$ git clone git://github.com/imathis/octopress.git octopress
+$ cd octopress
+$ bundle install
+$ rake install
 </code></pre>
 
-<h3>Add to Gemfile</h3>
+<h2>Configuration</h2>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>gem 'nokogiri'
-</span><span class='line'>gem 'twitter'</span></code></pre></td></tr></table></div></figure>
-
-
-<h3>Add to Rakefile</h3>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>require File.expand_path('../octopress_deploy_tweet/task', __FILE__)</span></code></pre></td></tr></table></div></figure>
-
-
-<h3>Setup Twitter in <code>task.rb</code></h3>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>twitter = Twitter::REST::Client.new do |config|
-</span><span class='line'>  config.consumer_key        = YOUR_CONSUMER_KEY
-</span><span class='line'>  config.consumer_secret     = YOUR_CONSUMER_SECRET
-</span><span class='line'>  config.access_token        = YOUR_ACCESS_TOKEN
-</span><span class='line'>  config.access_token_secret = YOUR_ACCESS_TOKEN_SECRET
-</span><span class='line'>end</span></code></pre></td></tr></table></div></figure>
-
+<p><code>_config.yml</code> を編集。<br/>
+各項目は <a href="http://octopress.org/docs/configuring/">Configuring Octopress</a> を参照。</p>
 
 <h2>Usage</h2>
 
-<pre><code>$ rake deploy_tweet
+<h3>記事作成</h3>
+
+<pre><code>$ rake new_post['title']
 </code></pre>
+
+<p><code>source/_posts/</code> に <code>YYYY-MM-DD-title.markdown</code> が作成されるので、let&rsquo;s まーくだうん。</p>
+
+<h3>ページ作成</h3>
+
+<pre><code>$ rake new_page['title']
+</code></pre>
+
+<p><code>source/</code> に <code>title/index.markdown</code> が作成されるので、enjoy まーくだうん。</p>
+
+<h3>ウェブサイト生成</h3>
+
+<pre><code>$ rake generate
+</code></pre>
+
+<p>わーい。</p>
+
+<h3>プレビュー</h3>
+
+<pre><code>$ rake preview
+</code></pre>
+
+<p>で、WEBrick が起動するので <code>http://localhost:4000</code> から確認。<br/>
+Thin を使いたければ <code>Gemfile</code> へ追記を。</p>
+
+<h2>GitHub Pages</h2>
+
+<h3>設定</h3>
+
+<pre><code>$ rake setup_github_pages
+</code></pre>
+
+<p>で、リポジトリ URL を設定。<code>git@github.com:username/username.github.io.git</code> みたいなものを。</p>
+
+<h3>デプロイ</h3>
+
+<pre><code>$ rake generate
+$ rake deploy
+</code></pre>
+
+<p>or</p>
+
+<pre><code>$ rake gen_deploy
+</code></pre>
+
+<p>でおしまい。</p>
+
+<h3>カスタムドメイン</h3>
+
+<p>ドメインを記載した <code>source/CNAME</code> を作って、DNS の A レコードを編集。<br/>
+A レコードの値は <a href="https://help.github.com/articles/setting-up-a-custom-domain-with-pages">Setting up a custom domain with Pages</a> を参照。</p>
 </div>
 
 
