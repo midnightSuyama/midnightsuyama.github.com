@@ -4,7 +4,7 @@
   <title><![CDATA[midnightSuyama.org]]></title>
   <link href="http://midnightsuyama.org/atom.xml" rel="self"/>
   <link href="http://midnightsuyama.org/"/>
-  <updated>2014-02-21T01:39:56+09:00</updated>
+  <updated>2014-02-27T03:33:30+09:00</updated>
   <id>http://midnightsuyama.org/</id>
   <author>
     <name><![CDATA[midnightSuyama]]></name>
@@ -12,6 +12,69 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[appicon_generate]]></title>
+    <link href="http://midnightsuyama.org/blog/articles/appicon-generate/"/>
+    <updated>2014-02-27T03:23:05+09:00</updated>
+    <id>http://midnightsuyama.org/blog/articles/appicon-generate</id>
+    <content type="html"><![CDATA[<p>Generate icon of iOS, Android</p>
+
+<!-- more -->
+
+
+<p><a href="http://rubygems.org/gems/appicon_generate">http://rubygems.org/gems/appicon_generate</a></p>
+
+<h2>Installation</h2>
+
+<p>Add this line to your application&rsquo;s Gemfile:</p>
+
+<pre><code>gem 'appicon_generate'
+</code></pre>
+
+<p>And then execute:</p>
+
+<pre><code>$ bundle
+</code></pre>
+
+<p>Or install it yourself as:</p>
+
+<pre><code>$ gem install appicon_generate
+</code></pre>
+
+<h2>Usage</h2>
+
+<pre><code>$ appicon_generate [file] [options]
+</code></pre>
+
+<h3>Options</h3>
+
+<ul>
+<li><code>-i</code>, <code>--ios</code> Generate icon of iOS</li>
+<li><code>-a</code>, <code>--android</code> Generate icon of Android</li>
+</ul>
+
+
+<h2>Contributing</h2>
+
+<ol>
+<li>Fork it ( <a href="https://github.com/midnightSuyama/appicon_generate/fork">https://github.com/midnightSuyama/appicon_generate/fork</a> )</li>
+<li>Create your feature branch (<code>git checkout -b my-new-feature</code>)</li>
+<li>Commit your changes (<code>git commit -am 'Add some feature'</code>)</li>
+<li>Push to the branch (<code>git push origin my-new-feature</code>)</li>
+<li>Create new Pull Request</li>
+</ol>
+
+
+<h2>Reference</h2>
+
+<ul>
+<li><a href="https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/App-RelatedResources/App-RelatedResources.html">iOS App Programming Guide: App-Related Resources</a></li>
+<li><a href="http://developer.android.com/design/style/iconography.html">Iconography | Android Developers</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Octopress]]></title>
