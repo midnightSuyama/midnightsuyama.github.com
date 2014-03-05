@@ -4,7 +4,7 @@
   <title><![CDATA[midnightSuyama.org]]></title>
   <link href="http://midnightsuyama.org/atom.xml" rel="self"/>
   <link href="http://midnightsuyama.org/"/>
-  <updated>2014-03-05T03:37:40+09:00</updated>
+  <updated>2014-03-06T00:26:15+09:00</updated>
   <id>http://midnightsuyama.org/</id>
   <author>
     <name><![CDATA[midnightSuyama]]></name>
@@ -12,6 +12,86 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[keymacs.chromeextension]]></title>
+    <link href="http://midnightsuyama.org/blog/articles/keymacs-dot-chromeextension/"/>
+    <updated>2014-03-06T00:02:19+09:00</updated>
+    <id>http://midnightsuyama.org/blog/articles/keymacs-dot-chromeextension</id>
+    <content type="html"><![CDATA[<p>Emacs like keybind for Chrome</p>
+
+<!-- more -->
+
+
+<p><a href="https://chrome.google.com/webstore/detail/keymacs/hkhefpopnmfflcfldaagjjdemflgmhkk">https://chrome.google.com/webstore/detail/keymacs/hkhefpopnmfflcfldaagjjdemflgmhkk</a></p>
+
+<h2>Scrolling</h2>
+
+<h3>Vertical</h3>
+
+<ul>
+<li>C-n</li>
+<li>C-p</li>
+<li>C-v</li>
+<li>M-v</li>
+<li>M-&lt;</li>
+<li>M-></li>
+</ul>
+
+
+<h3>Horizontal</h3>
+
+<ul>
+<li>C-f</li>
+<li>C-b</li>
+<li>M-f</li>
+<li>M-b</li>
+<li>C-a</li>
+<li>C-e</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[keymacs.safariextension]]></title>
+    <link href="http://midnightsuyama.org/blog/articles/keymacs-dot-safariextension/"/>
+    <updated>2014-03-06T00:02:06+09:00</updated>
+    <id>http://midnightsuyama.org/blog/articles/keymacs-dot-safariextension</id>
+    <content type="html"><![CDATA[<p>Emacs like keybind for Safari</p>
+
+<!-- more -->
+
+
+<p><a href="http://midnightsuyama.org/download/keymacs.safariextz">http://midnightsuyama.org/download/keymacs.safariextz</a></p>
+
+<h2>Scrolling</h2>
+
+<h3>Vertical</h3>
+
+<ul>
+<li>C-n</li>
+<li>C-p</li>
+<li>C-v</li>
+<li>M-v</li>
+<li>M-&lt;</li>
+<li>M-></li>
+</ul>
+
+
+<h3>Horizontal</h3>
+
+<ul>
+<li>C-f</li>
+<li>C-b</li>
+<li>M-f</li>
+<li>M-b</li>
+<li>C-a</li>
+<li>C-e</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[appicon_generate]]></title>
