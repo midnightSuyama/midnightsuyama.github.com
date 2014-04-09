@@ -4,7 +4,7 @@
   <title><![CDATA[midnightSuyama.org]]></title>
   <link href="http://midnightsuyama.org/atom.xml" rel="self"/>
   <link href="http://midnightsuyama.org/"/>
-  <updated>2014-03-06T00:26:15+09:00</updated>
+  <updated>2014-04-10T03:07:53+09:00</updated>
   <id>http://midnightsuyama.org/</id>
   <author>
     <name><![CDATA[midnightSuyama]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[feeder466298]]></title>
+    <link href="http://midnightsuyama.org/blog/articles/feeder466298/"/>
+    <updated>2014-04-10T02:58:31+09:00</updated>
+    <id>http://midnightsuyama.org/blog/articles/feeder466298</id>
+    <content type="html"><![CDATA[<p>feeder466298 is feed generater of computer book.</p>
+
+<!-- more -->
+
+
+<p><a href="http://feeder466298.herokuapp.com/">http://feeder466298.herokuapp.com/</a><br/>
+<a href="https://twitter.com/feeder466298">https://twitter.com/feeder466298</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[keymacs.chromeextension]]></title>

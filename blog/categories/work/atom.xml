@@ -4,7 +4,7 @@
   <title><![CDATA[Category: work | midnightSuyama.org]]></title>
   <link href="http://midnightsuyama.org/blog/categories/work/atom.xml" rel="self"/>
   <link href="http://midnightsuyama.org/"/>
-  <updated>2014-03-06T00:26:15+09:00</updated>
+  <updated>2014-04-10T03:07:53+09:00</updated>
   <id>http://midnightsuyama.org/</id>
   <author>
     <name><![CDATA[midnightSuyama]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[feeder466298]]></title>
+    <link href="http://midnightsuyama.org/blog/articles/feeder466298/"/>
+    <updated>2014-04-10T02:58:31+09:00</updated>
+    <id>http://midnightsuyama.org/blog/articles/feeder466298</id>
+    <content type="html"><![CDATA[<p>feeder466298 is feed generater of computer book.</p>
+
+<!-- more -->
+
+
+<p><a href="http://feeder466298.herokuapp.com/">http://feeder466298.herokuapp.com/</a><br/>
+<a href="https://twitter.com/feeder466298">https://twitter.com/feeder466298</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[keymacs.chromeextension]]></title>
@@ -202,51 +217,6 @@ end
 
 <pre><code>$ rake deploy_tweet
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[respectMattt]]></title>
-    <link href="http://midnightsuyama.org/blog/articles/respectmattt/"/>
-    <updated>2014-02-16T22:53:18+09:00</updated>
-    <id>http://midnightsuyama.org/blog/articles/respectmattt</id>
-    <content type="html"><![CDATA[<p>respectMattt is theme for Octopress.</p>
-
-<!-- more -->
-
-
-<p><a href="https://github.com/midnightSuyama/respectMattt">https://github.com/midnightSuyama/respectMattt</a></p>
-
-<h2>Install</h2>
-
-<pre><code>$ cd octopress
-$ git clone git://github.com/midnightSuyama/respectMattt.git .themes/respectMattt
-$ rake install['respectMattt']
-$ rake generate
-</code></pre>
-
-<p>If zsh, please use <code>rake install\['respectMattt'\]</code>.</p>
-
-<h2>Configuration</h2>
-
-<h3>Theme</h3>
-
-<p>Change category name in <code>.themes/respectMattt/source/_includes/post/theme.html</code>.</p>
-
-<h2>Acknowledgements</h2>
-
-<p>respectMattt was inspired by the mattt.</p>
-
-<ul>
-<li><a href="http://getbootstrap.com">Bootstrap</a></li>
-<li><a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a></li>
-<li><a href="http://jquery.com">jQuery</a></li>
-<li><a href="http://isotope.metafizzy.co">Isotope</a></li>
-<li><a href="http://letteringjs.com">Lettering.js</a></li>
-<li><a href="http://subtlepatterns.com">Subtle Patterns</a></li>
-<li><a href="http://wolfrosch.com">mini Social Icons</a></li>
-</ul>
-
 ]]></content>
   </entry>
   
