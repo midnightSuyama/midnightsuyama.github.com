@@ -4,7 +4,7 @@
   <title><![CDATA[Category: work | midnightSuyama.org]]></title>
   <link href="http://midnightsuyama.org/blog/categories/work/atom.xml" rel="self"/>
   <link href="http://midnightsuyama.org/"/>
-  <updated>2014-04-10T03:07:53+09:00</updated>
+  <updated>2014-05-28T01:50:40+09:00</updated>
   <id>http://midnightsuyama.org/</id>
   <author>
     <name><![CDATA[midnightSuyama]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[StockBarJP]]></title>
+    <link href="http://midnightsuyama.org/blog/articles/stockbarjp/"/>
+    <updated>2014-05-28T00:29:14+09:00</updated>
+    <id>http://midnightsuyama.org/blog/articles/stockbarjp</id>
+    <content type="html"><![CDATA[<p>Mac application which displays the price of Japanese stock on menu bar.</p>
+
+<!-- more -->
+
+
+<p><a href="http://midnightsuyama.org/download/StockBarJP.zip">http://midnightsuyama.org/download/StockBarJP.zip</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[feeder466298]]></title>
@@ -168,55 +182,6 @@
 <li><a href="http://developer.android.com/design/style/iconography.html">Iconography | Android Developers</a></li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[octopress_deploy_tweet]]></title>
-    <link href="http://midnightsuyama.org/blog/articles/octopress-deploy-tweet/"/>
-    <updated>2014-02-18T01:08:21+09:00</updated>
-    <id>http://midnightsuyama.org/blog/articles/octopress-deploy-tweet</id>
-    <content type="html"><![CDATA[<p>Octopress &ndash; Deploy task with tweet</p>
-
-<!-- more -->
-
-
-<p><a href="https://github.com/midnightSuyama/octopress_deploy_tweet">https://github.com/midnightSuyama/octopress_deploy_tweet</a></p>
-
-<h2>Install</h2>
-
-<pre><code>$ cd octopress
-$ git clone git://github.com/midnightSuyama/octopress_deploy_tweet.git
-</code></pre>
-
-<h3>Add to Gemfile</h3>
-
-<p><code>
-gem 'nokogiri'
-gem 'twitter'
-</code></p>
-
-<h3>Add to Rakefile</h3>
-
-<p><code>
-require File.expand_path('../octopress_deploy_tweet/task', __FILE__)
-</code></p>
-
-<h3>Setup Twitter in <code>task.rb</code></h3>
-
-<p><code>
-twitter = Twitter::REST::Client.new do |config|
-  config.consumer_key        = YOUR_CONSUMER_KEY
-  config.consumer_secret     = YOUR_CONSUMER_SECRET
-  config.access_token        = YOUR_ACCESS_TOKEN
-  config.access_token_secret = YOUR_ACCESS_TOKEN_SECRET
-end
-</code></p>
-
-<h2>Usage</h2>
-
-<pre><code>$ rake deploy_tweet
-</code></pre>
 ]]></content>
   </entry>
   

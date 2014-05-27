@@ -3,14 +3,14 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>octopress_deploy_tweet - midnightSuyama.org</title>
+  <title>StockBarJP - midnightSuyama.org</title>
   <meta name="viewport" content="width=device-width">
   
-  <meta name="description" content="octopress_deploy_tweet work Feb 18th, 2014 Octopress &ndash; Deploy task with tweet https://github.com/midnightSuyama/octopress_deploy_tweet Install &hellip;">
+  <meta name="description" content="StockBarJP work May 28th, 2014 Mac application which displays the price of Japanese stock on menu bar. http://midnightsuyama.org/download/StockBarJP &hellip;">
   <meta name="author" content="midnightSuyama">
 
   
-  <link rel="canonical" href="http://midnightsuyama.org/blog/articles/octopress-deploy-tweet">
+  <link rel="canonical" href="http://midnightsuyama.org/blog/articles/stockbarjp">
   <link href="/favicon.ico" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="midnightSuyama.org" type="application/atom+xml">
@@ -40,7 +40,7 @@ $(document).ready( function () {
 <article role="main" class="article theme-red">
   <header class="article-header">
   
-    <h1 class="article-title lettering">octopress_deploy_tweet</h1>
+    <h1 class="article-title lettering">StockBarJP</h1>
   
   <div>
     <span><i class="icon-tag"></i> 
@@ -65,7 +65,7 @@ $(document).ready( function () {
 
 
 
-<time datetime="2014-02-18T01:08:21+09:00" pubdate data-updated="true">Feb 18<span>th</span>, 2014</time></span>
+<time datetime="2014-05-28T00:29:14+09:00" pubdate data-updated="true">May 28<span>th</span>, 2014</time></span>
   </div>
 </header>
 
@@ -79,53 +79,12 @@ $(document).ready( function () {
 </div>
 
   
-  <div><p>Octopress &ndash; Deploy task with tweet</p>
+  <div><p>Mac application which displays the price of Japanese stock on menu bar.</p>
 
 <!-- more -->
 
 
-<p><a href="https://github.com/midnightSuyama/octopress_deploy_tweet">https://github.com/midnightSuyama/octopress_deploy_tweet</a></p>
-
-<h2>Install</h2>
-
-<pre><code>$ cd octopress
-$ git clone git://github.com/midnightSuyama/octopress_deploy_tweet.git
-</code></pre>
-
-<h3>Add to Gemfile</h3>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>gem 'nokogiri'
-</span><span class='line'>gem 'twitter'</span></code></pre></td></tr></table></div></figure>
-
-
-<h3>Add to Rakefile</h3>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>require File.expand_path('../octopress_deploy_tweet/task', __FILE__)</span></code></pre></td></tr></table></div></figure>
-
-
-<h3>Setup Twitter in <code>task.rb</code></h3>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>twitter = Twitter::REST::Client.new do |config|
-</span><span class='line'>  config.consumer_key        = YOUR_CONSUMER_KEY
-</span><span class='line'>  config.consumer_secret     = YOUR_CONSUMER_SECRET
-</span><span class='line'>  config.access_token        = YOUR_ACCESS_TOKEN
-</span><span class='line'>  config.access_token_secret = YOUR_ACCESS_TOKEN_SECRET
-</span><span class='line'>end</span></code></pre></td></tr></table></div></figure>
-
-
-<h2>Usage</h2>
-
-<pre><code>$ rake deploy_tweet
-</code></pre>
+<p><a href="http://midnightsuyama.org/download/StockBarJP.zip">http://midnightsuyama.org/download/StockBarJP.zip</a></p>
 </div>
 
 
