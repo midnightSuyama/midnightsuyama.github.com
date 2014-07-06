@@ -4,7 +4,7 @@
   <title><![CDATA[Category: work | midnightSuyama.org]]></title>
   <link href="http://midnightsuyama.org/blog/categories/work/atom.xml" rel="self"/>
   <link href="http://midnightsuyama.org/"/>
-  <updated>2014-05-28T01:50:40+09:00</updated>
+  <updated>2014-07-07T02:52:33+09:00</updated>
   <id>http://midnightsuyama.org/</id>
   <author>
     <name><![CDATA[midnightSuyama]]></name>
@@ -24,6 +24,13 @@
 
 
 <p><a href="http://midnightsuyama.org/download/StockBarJP.zip">http://midnightsuyama.org/download/StockBarJP.zip</a></p>
+
+<h2>Install</h2>
+
+<h3>with Homebrew Cask</h3>
+
+<pre><code>$ brew cask install stockbarjp
+</code></pre>
 ]]></content>
   </entry>
   
