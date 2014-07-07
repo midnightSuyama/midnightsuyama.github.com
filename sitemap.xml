@@ -3,6 +3,12 @@
   
   
   <url>
+    <loc>http://midnightsuyama.org/blog/articles/responsive/</loc>
+    <lastmod>2014-07-08T00:25:53+09:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://midnightsuyama.org/blog/articles/stockbarjp/</loc>
     <lastmod>2014-05-28T00:29:14+09:00</lastmod>
     <priority>0.8</priority>
@@ -53,7 +59,7 @@
   
   <url>
     <loc>http://midnightsuyama.org/</loc>
-    <lastmod>2014-07-07T02:52:33+09:00</lastmod>
+    <lastmod>2014-07-08T00:43:53+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
