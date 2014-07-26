@@ -4,7 +4,7 @@
   <title><![CDATA[midnightSuyama.org]]></title>
   <link href="http://midnightsuyama.org/atom.xml" rel="self"/>
   <link href="http://midnightsuyama.org/"/>
-  <updated>2014-07-08T00:43:53+09:00</updated>
+  <updated>2014-07-27T01:05:53+09:00</updated>
   <id>http://midnightsuyama.org/</id>
   <author>
     <name><![CDATA[midnightSuyama]]></name>
@@ -12,6 +12,63 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Masu]]></title>
+    <link href="http://midnightsuyama.org/blog/articles/masu/"/>
+    <updated>2014-07-27T00:32:53+09:00</updated>
+    <id>http://midnightsuyama.org/blog/articles/masu</id>
+    <content type="html"><![CDATA[<p>Placeholder for iOS prototyping</p>
+
+<!-- more -->
+
+
+<h2>Usage</h2>
+
+<p>To run the example project, clone the repo, and run <code>pod install</code> from the Example directory first.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class='objective-c'><span class='line'><span class="c1">// UIView demo</span>
+</span><span class='line'><span class="n">Masu</span> <span class="o">*</span><span class="n">masu</span> <span class="o">=</span> <span class="p">[[</span><span class="n">Masu</span> <span class="n">alloc</span><span class="p">]</span> <span class="nl">initWithFrame</span><span class="p">:</span><span class="n">CGRectMake</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mf">300.0f</span><span class="p">,</span> <span class="mf">220.0f</span><span class="p">,</span> <span class="mf">100.0f</span><span class="p">)];</span>
+</span><span class='line'><span class="n">masu</span><span class="p">.</span><span class="n">backgroundColor</span> <span class="o">=</span> <span class="p">[</span><span class="bp">UIColor</span> <span class="nl">colorWithRed</span><span class="p">:</span><span class="mi">0</span> <span class="nl">green</span><span class="p">:</span><span class="mf">0.5f</span> <span class="nl">blue</span><span class="p">:</span><span class="mf">0.5f</span> <span class="nl">alpha</span><span class="p">:</span><span class="mi">1</span><span class="p">];</span>
+</span><span class='line'><span class="n">masu</span><span class="p">.</span><span class="n">text</span>            <span class="o">=</span> <span class="s">@&quot;View&quot;</span><span class="p">;</span>
+</span><span class='line'><span class="p">[</span><span class="nb">self</span><span class="p">.</span><span class="n">view</span> <span class="nl">addSubview</span><span class="p">:</span><span class="n">masu</span><span class="p">];</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1">// UIImage demo</span>
+</span><span class='line'><span class="bp">UIButton</span> <span class="o">*</span><span class="n">btn</span> <span class="o">=</span> <span class="p">[</span><span class="bp">UIButton</span> <span class="nl">buttonWithType</span><span class="p">:</span><span class="n">UIButtonTypeCustom</span><span class="p">];</span>
+</span><span class='line'><span class="p">[</span><span class="n">btn</span> <span class="nl">setFrame</span><span class="p">:</span><span class="n">CGRectMake</span><span class="p">(</span><span class="mf">220.0f</span><span class="p">,</span> <span class="mf">300.0f</span><span class="p">,</span> <span class="mf">100.0f</span><span class="p">,</span> <span class="mf">100.0f</span><span class="p">)];</span>
+</span><span class='line'><span class="p">[</span><span class="n">btn</span> <span class="nl">setImage</span><span class="p">:[</span><span class="n">Masu</span> <span class="nl">imageWithSize</span><span class="p">:</span><span class="n">btn</span><span class="p">.</span><span class="n">frame</span><span class="p">.</span><span class="n">size</span> <span class="nl">backgroundColor</span><span class="p">:[</span><span class="bp">UIColor</span> <span class="n">grayColor</span><span class="p">]</span> <span class="nl">labelText</span><span class="p">:</span><span class="s">@&quot;Button&quot;</span><span class="p">]</span> <span class="nl">forState</span><span class="p">:</span><span class="n">UIControlStateNormal</span><span class="p">];</span>
+</span><span class='line'><span class="p">[</span><span class="nb">self</span><span class="p">.</span><span class="n">view</span> <span class="nl">addSubview</span><span class="p">:</span><span class="n">btn</span><span class="p">];</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Installation</h2>
+
+<p>Masu is available through <a href="http://cocoapods.org">CocoaPods</a>. To install
+it, simply add the following line to your Podfile:</p>
+
+<pre><code>pod "Masu"
+</code></pre>
+
+<h2>Author</h2>
+
+<p>midnightSuyama, <a href="&#x6d;&#x61;&#x69;&#108;&#x74;&#x6f;&#x3a;&#109;&#x69;&#100;&#x6e;&#x69;&#x67;&#x68;&#x74;&#83;&#x75;&#121;&#97;&#109;&#97;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#109;">&#109;&#x69;&#100;&#x6e;&#105;&#x67;&#104;&#x74;&#83;&#117;&#121;&#x61;&#x6d;&#x61;&#64;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;</a></p>
+
+<h2>License</h2>
+
+<p>Masu is available under the MIT license. See the LICENSE file for more info.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Responsive]]></title>

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: work | midnightSuyama.org]]></title>
   <link href="http://midnightsuyama.org/blog/categories/work/atom.xml" rel="self"/>
   <link href="http://midnightsuyama.org/"/>
-  <updated>2014-07-08T00:43:53+09:00</updated>
+  <updated>2014-07-27T01:05:53+09:00</updated>
   <id>http://midnightsuyama.org/</id>
   <author>
     <name><![CDATA[midnightSuyama]]></name>
@@ -12,6 +12,51 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Masu]]></title>
+    <link href="http://midnightsuyama.org/blog/articles/masu/"/>
+    <updated>2014-07-27T00:32:53+09:00</updated>
+    <id>http://midnightsuyama.org/blog/articles/masu</id>
+    <content type="html"><![CDATA[<p>Placeholder for iOS prototyping</p>
+
+<!-- more -->
+
+
+<h2>Usage</h2>
+
+<p>To run the example project, clone the repo, and run <code>pod install</code> from the Example directory first.</p>
+
+<pre><code class="objective-c">// UIView demo
+Masu *masu = [[Masu alloc] initWithFrame:CGRectMake(0, 300.0f, 220.0f, 100.0f)];
+masu.backgroundColor = [UIColor colorWithRed:0 green:0.5f blue:0.5f alpha:1];
+masu.text            = @"View";
+[self.view addSubview:masu];
+
+// UIImage demo
+UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+[btn setFrame:CGRectMake(220.0f, 300.0f, 100.0f, 100.0f)];
+[btn setImage:[Masu imageWithSize:btn.frame.size backgroundColor:[UIColor grayColor] labelText:@"Button"] forState:UIControlStateNormal];
+[self.view addSubview:btn];
+</code></pre>
+
+<h2>Installation</h2>
+
+<p>Masu is available through <a href="http://cocoapods.org">CocoaPods</a>. To install
+it, simply add the following line to your Podfile:</p>
+
+<pre><code>pod "Masu"
+</code></pre>
+
+<h2>Author</h2>
+
+<p>midnightSuyama, <a href="&#109;&#x61;&#105;&#108;&#x74;&#x6f;&#x3a;&#109;&#x69;&#100;&#110;&#105;&#103;&#104;&#116;&#83;&#117;&#121;&#x61;&#109;&#97;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#109;&#105;&#100;&#x6e;&#105;&#x67;&#104;&#116;&#83;&#x75;&#121;&#x61;&#x6d;&#97;&#x40;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
+
+<h2>License</h2>
+
+<p>Masu is available under the MIT license. See the LICENSE file for more info.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[StockBarJP]]></title>
@@ -124,69 +169,6 @@
 <li>M-b</li>
 <li>C-a</li>
 <li>C-e</li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[appicon_generate]]></title>
-    <link href="http://midnightsuyama.org/blog/articles/appicon-generate/"/>
-    <updated>2014-02-27T03:23:05+09:00</updated>
-    <id>http://midnightsuyama.org/blog/articles/appicon-generate</id>
-    <content type="html"><![CDATA[<p>Generate icon of iOS, Android</p>
-
-<!-- more -->
-
-
-<p><a href="http://rubygems.org/gems/appicon_generate">http://rubygems.org/gems/appicon_generate</a></p>
-
-<h2>Installation</h2>
-
-<p>Add this line to your application&rsquo;s Gemfile:</p>
-
-<pre><code>gem 'appicon_generate'
-</code></pre>
-
-<p>And then execute:</p>
-
-<pre><code>$ bundle
-</code></pre>
-
-<p>Or install it yourself as:</p>
-
-<pre><code>$ gem install appicon_generate
-</code></pre>
-
-<h2>Usage</h2>
-
-<pre><code>$ appicon_generate [file] [options]
-</code></pre>
-
-<h3>Options</h3>
-
-<ul>
-<li><code>-i</code>, <code>--ios</code> Generate icon of iOS</li>
-<li><code>-a</code>, <code>--android</code> Generate icon of Android</li>
-</ul>
-
-
-<h2>Contributing</h2>
-
-<ol>
-<li>Fork it ( <a href="https://github.com/midnightSuyama/appicon_generate/fork">https://github.com/midnightSuyama/appicon_generate/fork</a> )</li>
-<li>Create your feature branch (<code>git checkout -b my-new-feature</code>)</li>
-<li>Commit your changes (<code>git commit -am 'Add some feature'</code>)</li>
-<li>Push to the branch (<code>git push origin my-new-feature</code>)</li>
-<li>Create new Pull Request</li>
-</ol>
-
-
-<h2>Reference</h2>
-
-<ul>
-<li><a href="https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/App-RelatedResources/App-RelatedResources.html">iOS App Programming Guide: App-Related Resources</a></li>
-<li><a href="http://developer.android.com/design/style/iconography.html">Iconography | Android Developers</a></li>
 </ul>
 
 ]]></content>
