@@ -3,6 +3,12 @@
   
   
   <url>
+    <loc>http://midnightsuyama.org/blog/articles/stockwatchjp/</loc>
+    <lastmod>2014-08-07T00:36:37+09:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://midnightsuyama.org/blog/articles/masu/</loc>
     <lastmod>2014-07-27T00:32:53+09:00</lastmod>
     <priority>0.8</priority>
@@ -65,7 +71,7 @@
   
   <url>
     <loc>http://midnightsuyama.org/</loc>
-    <lastmod>2014-07-27T01:05:53+09:00</lastmod>
+    <lastmod>2014-08-07T01:16:50+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>

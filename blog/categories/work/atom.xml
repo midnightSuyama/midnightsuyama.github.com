@@ -4,7 +4,7 @@
   <title><![CDATA[Category: work | midnightSuyama.org]]></title>
   <link href="http://midnightsuyama.org/blog/categories/work/atom.xml" rel="self"/>
   <link href="http://midnightsuyama.org/"/>
-  <updated>2014-07-27T01:05:53+09:00</updated>
+  <updated>2014-08-07T01:16:50+09:00</updated>
   <id>http://midnightsuyama.org/</id>
   <author>
     <name><![CDATA[midnightSuyama]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[StockWatchJP]]></title>
+    <link href="http://midnightsuyama.org/blog/articles/stockwatchjp/"/>
+    <updated>2014-08-07T00:36:37+09:00</updated>
+    <id>http://midnightsuyama.org/blog/articles/stockwatchjp</id>
+    <content type="html"><![CDATA[<p>Pebble application which displays the price of Japanese stock.</p>
+
+<!-- more -->
+
+
+<p><a href="https://apps.getpebble.com/applications/53cd5b0eb289166987000181"><img src="http://pblweb.com/badge/53cd5b0eb289166987000181/orange/medium" height="50" width="186" alt="StockWatchJP is available on the Pebble appstore" /></a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Masu]]></title>
@@ -50,7 +64,7 @@ it, simply add the following line to your Podfile:</p>
 
 <h2>Author</h2>
 
-<p>midnightSuyama, <a href="&#109;&#x61;&#105;&#108;&#x74;&#x6f;&#x3a;&#109;&#x69;&#100;&#110;&#105;&#103;&#104;&#116;&#83;&#117;&#121;&#x61;&#109;&#97;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#109;&#105;&#100;&#x6e;&#105;&#x67;&#104;&#116;&#83;&#x75;&#121;&#x61;&#x6d;&#97;&#x40;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
+<p>midnightSuyama, <a href="&#109;&#97;&#x69;&#x6c;&#116;&#111;&#x3a;&#109;&#105;&#x64;&#x6e;&#x69;&#x67;&#x68;&#x74;&#83;&#117;&#121;&#x61;&#109;&#x61;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;">&#x6d;&#105;&#100;&#110;&#x69;&#103;&#104;&#x74;&#83;&#x75;&#121;&#97;&#109;&#97;&#x40;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;</a></p>
 
 <h2>License</h2>
 
@@ -105,46 +119,6 @@ it, simply add the following line to your Podfile:</p>
 
 
 <p><a href="https://chrome.google.com/webstore/detail/keymacs/hkhefpopnmfflcfldaagjjdemflgmhkk">https://chrome.google.com/webstore/detail/keymacs/hkhefpopnmfflcfldaagjjdemflgmhkk</a></p>
-
-<h2>Scrolling</h2>
-
-<h3>Vertical</h3>
-
-<ul>
-<li>C-n</li>
-<li>C-p</li>
-<li>C-v</li>
-<li>M-v</li>
-<li>M-&lt;</li>
-<li>M-></li>
-</ul>
-
-
-<h3>Horizontal</h3>
-
-<ul>
-<li>C-f</li>
-<li>C-b</li>
-<li>M-f</li>
-<li>M-b</li>
-<li>C-a</li>
-<li>C-e</li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[keymacs.safariextension]]></title>
-    <link href="http://midnightsuyama.org/blog/articles/keymacs-dot-safariextension/"/>
-    <updated>2014-03-06T00:02:06+09:00</updated>
-    <id>http://midnightsuyama.org/blog/articles/keymacs-dot-safariextension</id>
-    <content type="html"><![CDATA[<p>Emacs like keybind for Safari</p>
-
-<!-- more -->
-
-
-<p><a href="http://midnightsuyama.org/download/keymacs.safariextz">http://midnightsuyama.org/download/keymacs.safariextz</a></p>
 
 <h2>Scrolling</h2>
 
