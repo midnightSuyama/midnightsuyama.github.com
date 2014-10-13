@@ -4,7 +4,7 @@
   <title><![CDATA[midnightSuyama.org]]></title>
   <link href="http://midnightsuyama.org/atom.xml" rel="self"/>
   <link href="http://midnightsuyama.org/"/>
-  <updated>2014-10-09T02:24:27+09:00</updated>
+  <updated>2014-10-14T00:52:51+09:00</updated>
   <id>http://midnightsuyama.org/</id>
   <author>
     <name><![CDATA[midnightSuyama]]></name>
@@ -12,6 +12,68 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[resource_clean]]></title>
+    <link href="http://midnightsuyama.org/blog/articles/resource-clean/"/>
+    <updated>2014-10-14T00:48:36+09:00</updated>
+    <id>http://midnightsuyama.org/blog/articles/resource-clean</id>
+    <content type="html"><![CDATA[<p>Delete resource file and xattr</p>
+
+<!-- more -->
+
+
+<ul>
+<li>.AppleDouble</li>
+<li>.DS_Store</li>
+<li>.fseventsd</li>
+<li>.Spotlight-V100</li>
+<li>.TemporaryItems</li>
+<li>.Trashes</li>
+<li>.VolumeIcon.icns</li>
+<li>Desktop.ini</li>
+<li>Thumbs.db</li>
+</ul>
+
+
+<p>and, &ldquo;._&rdquo; prefix file</p>
+
+<p><a href="http://rubygems.org/gems/resource_clean">http://rubygems.org/gems/resource_clean</a></p>
+
+<h2>Installation</h2>
+
+<p>Add this line to your application&rsquo;s Gemfile:</p>
+
+<pre><code>gem 'resource_clean'
+</code></pre>
+
+<p>And then execute:</p>
+
+<pre><code>$ bundle
+</code></pre>
+
+<p>Or install it yourself as:</p>
+
+<pre><code>$ gem install resource_clean
+</code></pre>
+
+<h2>Usage</h2>
+
+<pre><code>$ resource_clean [directory]
+</code></pre>
+
+<h2>Contributing</h2>
+
+<ol>
+<li>Fork it ( <a href="https://github.com/midnightSuyama/resource_clean/fork">https://github.com/midnightSuyama/resource_clean/fork</a> )</li>
+<li>Create your feature branch (<code>git checkout -b my-new-feature</code>)</li>
+<li>Commit your changes (<code>git commit -am 'Add some feature'</code>)</li>
+<li>Push to the branch (<code>git push origin my-new-feature</code>)</li>
+<li>Create a new Pull Request</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[StockWatchJP]]></title>
@@ -85,7 +147,7 @@ it, simply add the following line to your Podfile:</p>
 
 <h2>Author</h2>
 
-<p>midnightSuyama, <a href="&#109;&#97;&#x69;&#x6c;&#116;&#111;&#x3a;&#x6d;&#x69;&#x64;&#110;&#x69;&#x67;&#104;&#116;&#x53;&#x75;&#121;&#x61;&#x6d;&#x61;&#64;&#103;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;">&#109;&#x69;&#x64;&#x6e;&#105;&#x67;&#104;&#x74;&#83;&#117;&#x79;&#x61;&#x6d;&#x61;&#64;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#111;&#109;</a></p>
+<p>midnightSuyama, <a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#111;&#58;&#109;&#105;&#x64;&#x6e;&#105;&#103;&#x68;&#x74;&#x53;&#x75;&#x79;&#97;&#x6d;&#x61;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#111;&#109;">&#x6d;&#x69;&#100;&#110;&#105;&#103;&#x68;&#116;&#83;&#117;&#x79;&#97;&#109;&#97;&#64;&#103;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
 
 <h2>License</h2>
 
