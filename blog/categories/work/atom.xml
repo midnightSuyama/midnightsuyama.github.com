@@ -4,7 +4,7 @@
   <title><![CDATA[Category: work | midnightSuyama.org]]></title>
   <link href="http://midnightsuyama.org/blog/categories/work/atom.xml" rel="self"/>
   <link href="http://midnightsuyama.org/"/>
-  <updated>2014-10-14T00:52:51+09:00</updated>
+  <updated>2014-10-19T03:07:15+09:00</updated>
   <id>http://midnightsuyama.org/</id>
   <author>
     <name><![CDATA[midnightSuyama]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Foodin]]></title>
+    <link href="http://midnightsuyama.org/blog/articles/foodin/"/>
+    <updated>2014-10-19T01:37:25+09:00</updated>
+    <id>http://midnightsuyama.org/blog/articles/foodin</id>
+    <content type="html"><![CDATA[<p>The camera app which specialized in food photography.<br/>
+The simple concept.</p>
+
+<!-- more -->
+
+
+<p><a href="https://itunes.apple.com/us/app/foodin/id914351694"><img src="/images/appstorebadge.svg" height="40" width="135" alt="Download on the App Store" /></a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[resource_clean]]></title>
@@ -133,7 +148,7 @@ it, simply add the following line to your Podfile:</p>
 
 <h2>Author</h2>
 
-<p>midnightSuyama, <a href="&#109;&#x61;&#105;&#x6c;&#x74;&#x6f;&#x3a;&#x6d;&#105;&#x64;&#x6e;&#105;&#x67;&#104;&#x74;&#x53;&#117;&#121;&#x61;&#109;&#97;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#111;&#x6d;">&#x6d;&#x69;&#x64;&#110;&#105;&#103;&#x68;&#116;&#x53;&#117;&#x79;&#x61;&#109;&#x61;&#64;&#x67;&#x6d;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#x6d;</a></p>
+<p>midnightSuyama, <a href="&#x6d;&#97;&#x69;&#x6c;&#116;&#x6f;&#58;&#x6d;&#105;&#100;&#x6e;&#105;&#103;&#104;&#x74;&#83;&#x75;&#121;&#x61;&#109;&#97;&#x40;&#x67;&#109;&#x61;&#105;&#108;&#46;&#x63;&#x6f;&#109;">&#x6d;&#x69;&#100;&#110;&#105;&#x67;&#104;&#x74;&#x53;&#117;&#121;&#97;&#x6d;&#97;&#x40;&#x67;&#109;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;</a></p>
 
 <h2>License</h2>
 
@@ -159,21 +174,6 @@ it, simply add the following line to your Podfile:</p>
 
 <pre><code>$ brew cask install stockbarjp
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[feeder466298]]></title>
-    <link href="http://midnightsuyama.org/blog/articles/feeder466298/"/>
-    <updated>2014-04-10T02:58:31+09:00</updated>
-    <id>http://midnightsuyama.org/blog/articles/feeder466298</id>
-    <content type="html"><![CDATA[<p>feeder466298 is feed generater of computer book.</p>
-
-<!-- more -->
-
-
-<p><a href="http://feeder466298.herokuapp.com/">http://feeder466298.herokuapp.com/</a><br/>
-<a href="https://twitter.com/feeder466298">https://twitter.com/feeder466298</a></p>
 ]]></content>
   </entry>
   
