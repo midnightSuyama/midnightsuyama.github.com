@@ -1,86 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  
   <url>
     <loc>http://midnightsuyama.org/blog/articles/foodin/</loc>
     <lastmod>2014-10-19T01:37:25+09:00</lastmod>
-    <priority>0.8</priority>
   </url>
-  
   <url>
     <loc>http://midnightsuyama.org/blog/articles/resource-clean/</loc>
     <lastmod>2014-10-14T00:48:36+09:00</lastmod>
-    <priority>0.8</priority>
   </url>
-  
   <url>
     <loc>http://midnightsuyama.org/blog/articles/stockwatchjp/</loc>
     <lastmod>2014-08-07T00:36:37+09:00</lastmod>
-    <priority>0.8</priority>
   </url>
-  
   <url>
     <loc>http://midnightsuyama.org/blog/articles/masu/</loc>
     <lastmod>2014-07-27T00:32:53+09:00</lastmod>
-    <priority>0.8</priority>
   </url>
-  
   <url>
     <loc>http://midnightsuyama.org/blog/articles/responsive/</loc>
     <lastmod>2014-07-08T00:25:53+09:00</lastmod>
-    <priority>0.8</priority>
   </url>
-  
   <url>
     <loc>http://midnightsuyama.org/blog/articles/stockbarjp/</loc>
     <lastmod>2014-05-28T00:29:14+09:00</lastmod>
-    <priority>0.8</priority>
   </url>
-  
   <url>
     <loc>http://midnightsuyama.org/blog/articles/feeder466298/</loc>
     <lastmod>2014-04-10T02:58:31+09:00</lastmod>
-    <priority>0.8</priority>
   </url>
-  
   <url>
     <loc>http://midnightsuyama.org/blog/articles/keymacs-dot-chromeextension/</loc>
     <lastmod>2014-03-06T00:02:19+09:00</lastmod>
-    <priority>0.8</priority>
   </url>
-  
   <url>
     <loc>http://midnightsuyama.org/blog/articles/keymacs-dot-safariextension/</loc>
     <lastmod>2014-03-06T00:02:06+09:00</lastmod>
-    <priority>0.8</priority>
   </url>
-  
   <url>
     <loc>http://midnightsuyama.org/blog/articles/appicon-generate/</loc>
     <lastmod>2014-02-27T03:23:05+09:00</lastmod>
-    <priority>0.8</priority>
   </url>
-  
   <url>
     <loc>http://midnightsuyama.org/blog/articles/respectmattt/</loc>
     <lastmod>2014-02-16T22:53:18+09:00</lastmod>
-    <priority>0.8</priority>
   </url>
-  
   <url>
     <loc>http://midnightsuyama.org/blog/articles/init/</loc>
     <lastmod>2014-02-16T22:29:00+09:00</lastmod>
-    <priority>0.8</priority>
   </url>
-  
-  
   <url>
     <loc>http://midnightsuyama.org/</loc>
-    <lastmod>2015-04-24T02:36:29+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
   </url>
-  
-  
+  <url>
+    <loc>http://midnightsuyama.org/blog/categories/etc/</loc>
+  </url>
+  <url>
+    <loc>http://midnightsuyama.org/blog/categories/work/</loc>
+  </url>
 </urlset>
