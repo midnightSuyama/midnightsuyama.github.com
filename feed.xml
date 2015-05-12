@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>midnightSuyama.org</title>
+    <description>midnightSuyama.org</description>
+    <link>http://midnightSuyama.org/</link>
+    <atom:link href="http://midnightSuyama.org/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 13 May 2015 00:46:56 +0900</pubDate>
+    <lastBuildDate>Wed, 13 May 2015 00:46:56 +0900</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Foodin</title>
+        <description>&lt;div style=&quot;text-align:center&quot;&gt;
+  &lt;p&gt;The camera app which specialized in food photography.&lt;br&gt;The simple concept.&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/foodin/id914351694&quot;&gt;&lt;img src=&quot;/images/appstorebadge.svg&quot; width=&quot;135&quot; height=&quot;40&quot; alt=&quot;Download on the App Store&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 19 Oct 2014 01:37:25 +0900</pubDate>
+        <link>http://midnightSuyama.org/foodin/</link>
+        <guid isPermaLink="true">http://midnightSuyama.org/foodin/</guid>
+      </item>
+    
+      <item>
+        <title>resource_clean</title>
+        <description>&lt;div style=&quot;text-align:center&quot;&gt;
+  &lt;p&gt;Delete resource file and xattr&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;http://rubygems.org/gems/resource_clean&quot;&gt;http://rubygems.org/gems/resource_clean&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;.AppleDouble&lt;/li&gt;
+&lt;li&gt;.DS_Store&lt;/li&gt;
+&lt;li&gt;.fseventsd&lt;/li&gt;
+&lt;li&gt;.Spotlight-V100&lt;/li&gt;
+&lt;li&gt;.TemporaryItems&lt;/li&gt;
+&lt;li&gt;.Trashes&lt;/li&gt;
+&lt;li&gt;.VolumeIcon.icns&lt;/li&gt;
+&lt;li&gt;Desktop.ini&lt;/li&gt;
+&lt;li&gt;Thumbs.db&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;and, &amp;quot;._&amp;quot; prefix file&lt;/p&gt;
+
+&lt;h2&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;Add this line to your application&amp;#39;s Gemfile:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;gem &amp;#39;resource_clean&amp;#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And then execute:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;$ bundle
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Or install it yourself as:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;$ gem install resource_clean
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Usage&lt;/h2&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;$ resource_clean [directory]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Contributing&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Fork it ( https://github.com/midnightSuyama/resource_clean/fork )&lt;/li&gt;
+&lt;li&gt;Create your feature branch (&lt;code&gt;git checkout -b my-new-feature&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Commit your changes (&lt;code&gt;git commit -am &amp;#39;Add some feature&amp;#39;&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Push to the branch (&lt;code&gt;git push origin my-new-feature&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Create a new Pull Request&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Tue, 14 Oct 2014 00:48:36 +0900</pubDate>
+        <link>http://midnightSuyama.org/resource-clean/</link>
+        <guid isPermaLink="true">http://midnightSuyama.org/resource-clean/</guid>
+      </item>
+    
+      <item>
+        <title>StockWatchJP</title>
+        <description>&lt;div style=&quot;text-align:center&quot;&gt;
+  &lt;p&gt;Pebble application which displays the price of Japanese stock.&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;https://apps.getpebble.com/applications/53cd5b0eb289166987000181&quot;&gt;&lt;img src=&quot;http://pblweb.com/badge/53cd5b0eb289166987000181/orange/medium&quot; alt=&quot;StockWatchJP is available on the Pebble appstore&quot; width=&quot;186&quot; height=&quot;50&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 07 Aug 2014 00:36:37 +0900</pubDate>
+        <link>http://midnightSuyama.org/stockwatchjp/</link>
+        <guid isPermaLink="true">http://midnightSuyama.org/stockwatchjp/</guid>
+      </item>
+    
+      <item>
+        <title>Masu</title>
+        <description>&lt;div style=&quot;text-align:center&quot;&gt;
+  &lt;p&gt;Placeholder for iOS prototyping&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.cocoacontrols.com/controls/masu&quot;&gt;https://www.cocoacontrols.com/controls/masu&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;Usage&lt;/h2&gt;
+
+&lt;p&gt;To run the example project, clone the repo, and run &lt;code&gt;pod install&lt;/code&gt; from the Example directory first.&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objective-c&quot; data-lang=&quot;objective-c&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// UIView demo&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Masu&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;masu&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Masu&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alloc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;initWithFrame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CGRectMake&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;300.0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;220.0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;100.0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)];&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;masu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;backgroundColor&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;UIColor&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;colorWithRed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.5f&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;blue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.5f&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;alpha&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;masu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;            &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;@&amp;quot;View&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;view&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;addSubview&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;masu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// UIImage demo&lt;/span&gt;
+&lt;span class=&quot;bp&quot;&gt;UIButton&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;btn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;UIButton&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;buttonWithType&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UIButtonTypeCustom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;btn&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;setFrame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CGRectMake&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;220.0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;300.0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;100.0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;100.0f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)];&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;btn&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;setImage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Masu&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;imageWithSize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;btn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;frame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;size&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;backgroundColor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;UIColor&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;grayColor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;labelText&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;@&amp;quot;Button&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;forState&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UIControlStateNormal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;view&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;addSubview&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;btn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Category&lt;/h3&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objective-c&quot; data-lang=&quot;objective-c&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;view&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;showMasu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;Masu is available through &lt;a href=&quot;http://cocoapods.org&quot;&gt;CocoaPods&lt;/a&gt;. To install
+it, simply add the following line to your Podfile:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;pod &amp;quot;Masu&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Author&lt;/h2&gt;
+
+&lt;p&gt;midnightSuyama, midnightSuyama@gmail.com&lt;/p&gt;
+
+&lt;h2&gt;License&lt;/h2&gt;
+
+&lt;p&gt;Masu is available under the MIT license. See the LICENSE file for more info.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 27 Jul 2014 00:32:53 +0900</pubDate>
+        <link>http://midnightSuyama.org/masu/</link>
+        <guid isPermaLink="true">http://midnightSuyama.org/masu/</guid>
+      </item>
+    
+      <item>
+        <title>StockBarJP</title>
+        <description>&lt;div style=&quot;text-align:center&quot;&gt;
+  &lt;p&gt;Mac application which displays the price of Japanese stock on menu bar.&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;http://midnightsuyama.org/download/StockBarJP.zip&quot;&gt;http://midnightsuyama.org/download/StockBarJP.zip&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;Install&lt;/h2&gt;
+
+&lt;h3&gt;Homebrew Cask&lt;/h3&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;$ brew cask install stockbarjp
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        <pubDate>Wed, 28 May 2014 00:29:14 +0900</pubDate>
+        <link>http://midnightSuyama.org/stockbarjp/</link>
+        <guid isPermaLink="true">http://midnightSuyama.org/stockbarjp/</guid>
+      </item>
+    
+      <item>
+        <title>feeder466298</title>
+        <description>&lt;div style=&quot;text-align:center&quot;&gt;
+  &lt;p&gt;feeder466298 is feed generater of computer book.&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;http://feeder466298.herokuapp.com&quot;&gt;http://feeder466298.herokuapp.com&lt;/a&gt; - &lt;a href=&quot;https://twitter.com/feeder466298&quot;&gt;https://twitter.com/feeder466298&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 10 Apr 2014 02:58:31 +0900</pubDate>
+        <link>http://midnightSuyama.org/feeder466298/</link>
+        <guid isPermaLink="true">http://midnightSuyama.org/feeder466298/</guid>
+      </item>
+    
+      <item>
+        <title>keymacs.chromeextension</title>
+        <description>&lt;div style=&quot;text-align:center&quot;&gt;
+  &lt;p&gt;Emacs like keybind for Chrome&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/keymacs/hkhefpopnmfflcfldaagjjdemflgmhkk&quot;&gt;https://chrome.google.com/webstore/detail/keymacs/hkhefpopnmfflcfldaagjjdemflgmhkk&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;Scrolling&lt;/h2&gt;
+
+&lt;h3&gt;Vertical&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;C-n&lt;/li&gt;
+&lt;li&gt;C-p&lt;/li&gt;
+&lt;li&gt;C-v&lt;/li&gt;
+&lt;li&gt;M-v&lt;/li&gt;
+&lt;li&gt;M-&amp;lt;&lt;/li&gt;
+&lt;li&gt;M-&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Horizontal&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;C-f&lt;/li&gt;
+&lt;li&gt;C-b&lt;/li&gt;
+&lt;li&gt;M-f&lt;/li&gt;
+&lt;li&gt;M-b&lt;/li&gt;
+&lt;li&gt;C-a&lt;/li&gt;
+&lt;li&gt;C-e&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 06 Mar 2014 00:02:19 +0900</pubDate>
+        <link>http://midnightSuyama.org/keymacs-dot-chromeextension/</link>
+        <guid isPermaLink="true">http://midnightSuyama.org/keymacs-dot-chromeextension/</guid>
+      </item>
+    
+      <item>
+        <title>keymacs.safariextension</title>
+        <description>&lt;div style=&quot;text-align:center&quot;&gt;
+  &lt;p&gt;Emacs like keybind for Safari&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;http://midnightsuyama.org/download/keymacs.safariextz&quot;&gt;http://midnightsuyama.org/download/keymacs.safariextz&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;Scrolling&lt;/h2&gt;
+
+&lt;h3&gt;Vertical&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;C-n&lt;/li&gt;
+&lt;li&gt;C-p&lt;/li&gt;
+&lt;li&gt;C-v&lt;/li&gt;
+&lt;li&gt;M-v&lt;/li&gt;
+&lt;li&gt;M-&amp;lt;&lt;/li&gt;
+&lt;li&gt;M-&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Horizontal&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;C-f&lt;/li&gt;
+&lt;li&gt;C-b&lt;/li&gt;
+&lt;li&gt;M-f&lt;/li&gt;
+&lt;li&gt;M-b&lt;/li&gt;
+&lt;li&gt;C-a&lt;/li&gt;
+&lt;li&gt;C-e&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 06 Mar 2014 00:02:06 +0900</pubDate>
+        <link>http://midnightSuyama.org/keymacs-dot-safariextension/</link>
+        <guid isPermaLink="true">http://midnightSuyama.org/keymacs-dot-safariextension/</guid>
+      </item>
+    
+      <item>
+        <title>appicon_generate</title>
+        <description>&lt;div style=&quot;text-align:center&quot;&gt;
+  &lt;p&gt;Generate icon for iOS, Android&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;http://rubygems.org/gems/appicon_generate&quot;&gt;http://rubygems.org/gems/appicon_generate&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;Add this line to your application&amp;#39;s Gemfile:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;gem &amp;#39;appicon_generate&amp;#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And then execute:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;$ bundle
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Or install it yourself as:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;$ gem install appicon_generate
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Usage&lt;/h2&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;$ appicon_generate [file] [options]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Options&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;-i&lt;/code&gt;, &lt;code&gt;--ios&lt;/code&gt; Generate icon for iOS&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-a&lt;/code&gt;, &lt;code&gt;--android&lt;/code&gt; Generate icon for Android&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Contributing&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Fork it ( https://github.com/midnightSuyama/appicon_generate/fork )&lt;/li&gt;
+&lt;li&gt;Create your feature branch (&lt;code&gt;git checkout -b my-new-feature&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Commit your changes (&lt;code&gt;git commit -am &amp;#39;Add some feature&amp;#39;&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Push to the branch (&lt;code&gt;git push origin my-new-feature&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Create new Pull Request&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;Reference&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/App-RelatedResources/App-RelatedResources.html&quot;&gt;iOS App Programming Guide: App-Related Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://developer.android.com/design/style/iconography.html&quot;&gt;Iconography | Android Developers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 27 Feb 2014 03:23:05 +0900</pubDate>
+        <link>http://midnightSuyama.org/appicon-generate/</link>
+        <guid isPermaLink="true">http://midnightSuyama.org/appicon-generate/</guid>
+      </item>
+    
+      <item>
+        <title>respectMattt</title>
+        <description>&lt;div style=&quot;text-align:center&quot;&gt;
+  &lt;p&gt;respectMattt is theme for Octopress.&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;https://github.com/midnightSuyama/respectMattt&quot;&gt;https://github.com/midnightSuyama/respectMattt&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;Install&lt;/h2&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;$ cd octopress
+$ git clone git://github.com/midnightSuyama/respectMattt.git .themes/respectMattt
+$ rake install[&amp;#39;respectMattt&amp;#39;]
+$ rake generate
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;If zsh, please use &lt;code&gt;rake install\[&amp;#39;respectMattt&amp;#39;\]&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Configuration&lt;/h2&gt;
+
+&lt;h3&gt;Theme&lt;/h3&gt;
+
+&lt;p&gt;Change category name in &lt;code&gt;.themes/respectMattt/source/_includes/post/theme.html&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Acknowledgements&lt;/h2&gt;
+
+&lt;p&gt;respectMattt was inspired by the mattt.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://getbootstrap.com&quot;&gt;Bootstrap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://fortawesome.github.io/Font-Awesome/&quot;&gt;Font Awesome&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://jquery.com&quot;&gt;jQuery&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://isotope.metafizzy.co&quot;&gt;Isotope&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://letteringjs.com&quot;&gt;Lettering.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://subtlepatterns.com&quot;&gt;Subtle Patterns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://wolfrosch.com&quot;&gt;mini Social Icons&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 16 Feb 2014 22:53:18 +0900</pubDate>
+        <link>http://midnightSuyama.org/respectmattt/</link>
+        <guid isPermaLink="true">http://midnightSuyama.org/respectmattt/</guid>
+      </item>
+    
+  </channel>
+</rss>
