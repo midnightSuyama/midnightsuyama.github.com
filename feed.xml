@@ -5,9 +5,30 @@
     <description>midnightSuyama.org</description>
     <link>http://midnightSuyama.org/</link>
     <atom:link href="http://midnightSuyama.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 May 2015 00:46:56 +0900</pubDate>
-    <lastBuildDate>Wed, 13 May 2015 00:46:56 +0900</lastBuildDate>
+    <pubDate>Wed, 13 May 2015 03:48:10 +0900</pubDate>
+    <lastBuildDate>Wed, 13 May 2015 03:48:10 +0900</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Lithograph</title>
+        <description>&lt;div style=&quot;text-align:center&quot;&gt;
+  &lt;p&gt;Lithograph is theme for jekyll.&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;https://github.com/midnightSuyama/Lithograph&quot;&gt;https://github.com/midnightSuyama/Lithograph&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;Acknowledgements&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://primercss.io&quot;&gt;Primer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://fortawesome.github.io/Font-Awesome/&quot;&gt;Font Awesome&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://jquery.com&quot;&gt;jQuery&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://isotope.metafizzy.co&quot;&gt;Isotope&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 13 May 2015 03:45:52 +0900</pubDate>
+        <link>http://midnightSuyama.org/lithograph/</link>
+        <guid isPermaLink="true">http://midnightSuyama.org/lithograph/</guid>
+      </item>
     
       <item>
         <title>Foodin</title>
@@ -276,46 +297,6 @@ it, simply add the following line to your Podfile:&lt;/p&gt;
         <pubDate>Thu, 27 Feb 2014 03:23:05 +0900</pubDate>
         <link>http://midnightSuyama.org/appicon-generate/</link>
         <guid isPermaLink="true">http://midnightSuyama.org/appicon-generate/</guid>
-      </item>
-    
-      <item>
-        <title>respectMattt</title>
-        <description>&lt;div style=&quot;text-align:center&quot;&gt;
-  &lt;p&gt;respectMattt is theme for Octopress.&lt;/p&gt;
-  &lt;p&gt;&lt;a href=&quot;https://github.com/midnightSuyama/respectMattt&quot;&gt;https://github.com/midnightSuyama/respectMattt&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;h2&gt;Install&lt;/h2&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;$ cd octopress
-$ git clone git://github.com/midnightSuyama/respectMattt.git .themes/respectMattt
-$ rake install[&amp;#39;respectMattt&amp;#39;]
-$ rake generate
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;If zsh, please use &lt;code&gt;rake install\[&amp;#39;respectMattt&amp;#39;\]&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2&gt;Configuration&lt;/h2&gt;
-
-&lt;h3&gt;Theme&lt;/h3&gt;
-
-&lt;p&gt;Change category name in &lt;code&gt;.themes/respectMattt/source/_includes/post/theme.html&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2&gt;Acknowledgements&lt;/h2&gt;
-
-&lt;p&gt;respectMattt was inspired by the mattt.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://getbootstrap.com&quot;&gt;Bootstrap&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://fortawesome.github.io/Font-Awesome/&quot;&gt;Font Awesome&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://jquery.com&quot;&gt;jQuery&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://isotope.metafizzy.co&quot;&gt;Isotope&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://letteringjs.com&quot;&gt;Lettering.js&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://subtlepatterns.com&quot;&gt;Subtle Patterns&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://wolfrosch.com&quot;&gt;mini Social Icons&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 16 Feb 2014 22:53:18 +0900</pubDate>
-        <link>http://midnightSuyama.org/respectmattt/</link>
-        <guid isPermaLink="true">http://midnightSuyama.org/respectmattt/</guid>
       </item>
     
   </channel>
