@@ -5,8 +5,8 @@
     <description>midnightSuyama.org</description>
     <link>http://midnightSuyama.org/</link>
     <atom:link href="http://midnightSuyama.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 31 May 2015 01:41:25 +0900</pubDate>
-    <lastBuildDate>Sun, 31 May 2015 01:41:25 +0900</lastBuildDate>
+    <pubDate>Sun, 31 May 2015 02:32:27 +0900</pubDate>
+    <lastBuildDate>Sun, 31 May 2015 02:32:27 +0900</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -23,22 +23,6 @@
         <pubDate>Sun, 31 May 2015 01:27:42 +0900</pubDate>
         <link>http://midnightSuyama.org/s2i-chromeextension/</link>
         <guid isPermaLink="true">http://midnightSuyama.org/s2i-chromeextension/</guid>
-      </item>
-    
-      <item>
-        <title>s2i.safariextension</title>
-        <description>&lt;div style=&quot;text-align:center&quot;&gt;
-  &lt;p&gt;This convert a string to images for Safari&lt;/p&gt;
-  &lt;p&gt;&lt;a href=&quot;http://midnightsuyama.org/download/s2i.safariextz&quot;&gt;http://midnightsuyama.org/download/s2i.safariextz&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;h2&gt;Usage&lt;/h2&gt;
-
-&lt;p&gt;Let&amp;#39;s select a string for word learning.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 31 May 2015 01:27:30 +0900</pubDate>
-        <link>http://midnightSuyama.org/s2i-safariextension/</link>
-        <guid isPermaLink="true">http://midnightSuyama.org/s2i-safariextension/</guid>
       </item>
     
       <item>
@@ -243,6 +227,42 @@ it, simply add the following line to your Podfile:&lt;/p&gt;
         <pubDate>Thu, 06 Mar 2014 00:02:19 +0900</pubDate>
         <link>http://midnightSuyama.org/keymacs-dot-chromeextension/</link>
         <guid isPermaLink="true">http://midnightSuyama.org/keymacs-dot-chromeextension/</guid>
+      </item>
+    
+      <item>
+        <title>keymacs.safariextension</title>
+        <description>&lt;div style=&quot;text-align:center&quot;&gt;
+  &lt;p&gt;Emacs like keybind for Safari&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;http://midnightsuyama.org/download/keymacs.safariextz&quot;&gt;http://midnightsuyama.org/download/keymacs.safariextz&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;Scrolling&lt;/h2&gt;
+
+&lt;h3&gt;Vertical&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;C-n&lt;/li&gt;
+&lt;li&gt;C-p&lt;/li&gt;
+&lt;li&gt;C-v&lt;/li&gt;
+&lt;li&gt;M-v&lt;/li&gt;
+&lt;li&gt;M-&amp;lt;&lt;/li&gt;
+&lt;li&gt;M-&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Horizontal&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;C-f&lt;/li&gt;
+&lt;li&gt;C-b&lt;/li&gt;
+&lt;li&gt;M-f&lt;/li&gt;
+&lt;li&gt;M-b&lt;/li&gt;
+&lt;li&gt;C-a&lt;/li&gt;
+&lt;li&gt;C-e&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 06 Mar 2014 00:02:06 +0900</pubDate>
+        <link>http://midnightSuyama.org/keymacs-dot-safariextension/</link>
+        <guid isPermaLink="true">http://midnightSuyama.org/keymacs-dot-safariextension/</guid>
       </item>
     
   </channel>
