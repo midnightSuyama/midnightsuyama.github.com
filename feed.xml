@@ -5,9 +5,21 @@
     <description>midnightSuyama.org</description>
     <link>http://midnightSuyama.org/</link>
     <atom:link href="http://midnightSuyama.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 31 May 2015 02:32:27 +0900</pubDate>
-    <lastBuildDate>Sun, 31 May 2015 02:32:27 +0900</lastBuildDate>
+    <pubDate>Thu, 04 Jun 2015 03:12:54 +0900</pubDate>
+    <lastBuildDate>Thu, 04 Jun 2015 03:12:54 +0900</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>wiz5</title>
+        <description>&lt;div style=&quot;text-align:center&quot;&gt;
+  &lt;p&gt;What if the programmer is a bookstore staff&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;http://wiz5.jp&quot;&gt;http://wiz5.jp&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Wed, 03 Jun 2015 23:39:52 +0900</pubDate>
+        <link>http://midnightSuyama.org/wiz5/</link>
+        <guid isPermaLink="true">http://midnightSuyama.org/wiz5/</guid>
+      </item>
     
       <item>
         <title>s2i.chromeextension</title>
@@ -227,42 +239,6 @@ it, simply add the following line to your Podfile:&lt;/p&gt;
         <pubDate>Thu, 06 Mar 2014 00:02:19 +0900</pubDate>
         <link>http://midnightSuyama.org/keymacs-dot-chromeextension/</link>
         <guid isPermaLink="true">http://midnightSuyama.org/keymacs-dot-chromeextension/</guid>
-      </item>
-    
-      <item>
-        <title>keymacs.safariextension</title>
-        <description>&lt;div style=&quot;text-align:center&quot;&gt;
-  &lt;p&gt;Emacs like keybind for Safari&lt;/p&gt;
-  &lt;p&gt;&lt;a href=&quot;http://midnightsuyama.org/download/keymacs.safariextz&quot;&gt;http://midnightsuyama.org/download/keymacs.safariextz&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;h2&gt;Scrolling&lt;/h2&gt;
-
-&lt;h3&gt;Vertical&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;C-n&lt;/li&gt;
-&lt;li&gt;C-p&lt;/li&gt;
-&lt;li&gt;C-v&lt;/li&gt;
-&lt;li&gt;M-v&lt;/li&gt;
-&lt;li&gt;M-&amp;lt;&lt;/li&gt;
-&lt;li&gt;M-&amp;gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Horizontal&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;C-f&lt;/li&gt;
-&lt;li&gt;C-b&lt;/li&gt;
-&lt;li&gt;M-f&lt;/li&gt;
-&lt;li&gt;M-b&lt;/li&gt;
-&lt;li&gt;C-a&lt;/li&gt;
-&lt;li&gt;C-e&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 06 Mar 2014 00:02:06 +0900</pubDate>
-        <link>http://midnightSuyama.org/keymacs-dot-safariextension/</link>
-        <guid isPermaLink="true">http://midnightSuyama.org/keymacs-dot-safariextension/</guid>
       </item>
     
   </channel>
