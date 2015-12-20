@@ -5,9 +5,17 @@
     <description>midnightSuyama.org</description>
     <link>http://midnightSuyama.org/</link>
     <atom:link href="http://midnightSuyama.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 29 Nov 2015 01:39:08 +0900</pubDate>
-    <lastBuildDate>Sun, 29 Nov 2015 01:39:08 +0900</lastBuildDate>
+    <pubDate>Mon, 21 Dec 2015 00:54:48 +0900</pubDate>
+    <lastBuildDate>Mon, 21 Dec 2015 00:54:48 +0900</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Jekyll-paginate-category</title>
+        <description>Pagination Generator for Jekyll Category</description>
+        <pubDate>Mon, 21 Dec 2015 00:52:06 +0900</pubDate>
+        <link>https://rubygems.org/gems/jekyll-paginate-category</link>
+        <guid isPermaLink="true">http://midnightSuyama.org</guid>
+      </item>
     
       <item>
         <title>shader-mode</title>
@@ -78,14 +86,6 @@
         <description>Placeholder for iOS prototyping</description>
         <pubDate>Sun, 27 Jul 2014 00:32:53 +0900</pubDate>
         <link>https://cocoapods.org/pods/Masu</link>
-        <guid isPermaLink="true">http://midnightSuyama.org</guid>
-      </item>
-    
-      <item>
-        <title>StockBarJP</title>
-        <description>Mac application which displays the price of Japanese stock on menu bar</description>
-        <pubDate>Wed, 28 May 2014 00:29:14 +0900</pubDate>
-        <link>http://caskroom.io</link>
         <guid isPermaLink="true">http://midnightSuyama.org</guid>
       </item>
     
