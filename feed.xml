@@ -5,9 +5,25 @@
     <description>midnightSuyama.org</description>
     <link>http://midnightSuyama.org/</link>
     <atom:link href="http://midnightSuyama.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 10 Feb 2016 03:17:29 +0900</pubDate>
-    <lastBuildDate>Wed, 10 Feb 2016 03:17:29 +0900</lastBuildDate>
+    <pubDate>Wed, 24 Feb 2016 01:57:38 +0900</pubDate>
+    <lastBuildDate>Wed, 24 Feb 2016 01:57:38 +0900</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>gitbook-plugin-flowchart</title>
+        <description>flowchart.js plugin for GitBook</description>
+        <pubDate>Wed, 24 Feb 2016 01:54:15 +0900</pubDate>
+        <link>https://www.npmjs.com/package/gitbook-plugin-flowchart</link>
+        <guid isPermaLink="true">http://midnightSuyama.org</guid>
+      </item>
+    
+      <item>
+        <title>tweet-rec</title>
+        <description>Tweet recording player by electron</description>
+        <pubDate>Tue, 16 Feb 2016 02:04:36 +0900</pubDate>
+        <link>https://github.com/midnightSuyama/tweet-rec</link>
+        <guid isPermaLink="true">http://midnightSuyama.org</guid>
+      </item>
     
       <item>
         <title>RedmineLoginAttemptsLimit</title>
@@ -70,22 +86,6 @@
         <description>The camera app which specialized in food photography</description>
         <pubDate>Sun, 19 Oct 2014 01:37:25 +0900</pubDate>
         <link>https://itunes.apple.com/us/app/foodin/id914351694</link>
-        <guid isPermaLink="true">http://midnightSuyama.org</guid>
-      </item>
-    
-      <item>
-        <title>resource_clean</title>
-        <description>Delete resource file and xattr</description>
-        <pubDate>Tue, 14 Oct 2014 00:48:36 +0900</pubDate>
-        <link>http://rubygems.org/gems/resource_clean</link>
-        <guid isPermaLink="true">http://midnightSuyama.org</guid>
-      </item>
-    
-      <item>
-        <title>StockWatchJP</title>
-        <description>Pebble application which displays the price of Japanese stock</description>
-        <pubDate>Thu, 07 Aug 2014 00:36:37 +0900</pubDate>
-        <link>https://apps.getpebble.com/applications/53cd5b0eb289166987000181</link>
         <guid isPermaLink="true">http://midnightSuyama.org</guid>
       </item>
     
