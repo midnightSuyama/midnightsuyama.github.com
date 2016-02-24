@@ -5,9 +5,17 @@
     <description>midnightSuyama.org</description>
     <link>http://midnightSuyama.org/</link>
     <atom:link href="http://midnightSuyama.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 24 Feb 2016 01:57:38 +0900</pubDate>
-    <lastBuildDate>Wed, 24 Feb 2016 01:57:38 +0900</lastBuildDate>
+    <pubDate>Thu, 25 Feb 2016 00:21:22 +0900</pubDate>
+    <lastBuildDate>Thu, 25 Feb 2016 00:21:22 +0900</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>gitbook-plugin-sequence-diagrams</title>
+        <description>js-sequence-diagrams plugin for GitBook</description>
+        <pubDate>Thu, 25 Feb 2016 00:17:22 +0900</pubDate>
+        <link>https://www.npmjs.com/package/gitbook-plugin-sequence-diagrams</link>
+        <guid isPermaLink="true">http://midnightSuyama.org</guid>
+      </item>
     
       <item>
         <title>gitbook-plugin-flowchart</title>
@@ -78,14 +86,6 @@
         <description>Lithograph is theme for jekyll</description>
         <pubDate>Wed, 13 May 2015 03:45:52 +0900</pubDate>
         <link>https://github.com/midnightSuyama/Lithograph</link>
-        <guid isPermaLink="true">http://midnightSuyama.org</guid>
-      </item>
-    
-      <item>
-        <title>Foodin</title>
-        <description>The camera app which specialized in food photography</description>
-        <pubDate>Sun, 19 Oct 2014 01:37:25 +0900</pubDate>
-        <link>https://itunes.apple.com/us/app/foodin/id914351694</link>
         <guid isPermaLink="true">http://midnightSuyama.org</guid>
       </item>
     
